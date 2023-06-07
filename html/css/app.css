@@ -1,0 +1,68 @@
+/* CSS */
+@import url('https://fonts.googleapis.com/css2?family=Kristi&family=Teko:wght@300&display=swap');
+* {
+	color: #000;
+	font-family: 'Roboto', sans-serif;
+}
+body {
+	overflow-y: hidden;
+	background-color: transparent !important;
+}
+.container {
+	position: fixed;
+	top: 1.5%;
+	right: 2%;
+	width: 470px;
+	height: 97%;
+	padding: 0;
+	display: flex;
+	flex-direction: column-reverse;
+}
+.show-document {
+	width: 100%;
+	min-height: 230px;
+	margin: 0;
+	margin-top: 10px;
+	padding: 10px;
+	position: relative;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.document-text {
+	font-family: 'Teko', sans-serif;
+	font-weight: bold;
+	position: absolute;
+	white-space: nowrap;
+	overflow-x: hidden;
+	-ms-overflow-style: none;
+  	scrollbar-width: none;
+}
+.document-text::-webkit-scrollbar {display: none;}
+.document-text-signature {
+	font-family: 'Kristi', cursive;
+	font-weight: normal;
+	text-shadow: none;
+}
+.show_id {background-image: url(/html/img/show_id.png);}
+.show_driver_license {background-image: url(/html/img/show_driver_license.png);}
+.show_card {background-image: url(/html/img/show_card.png);}
+h1, h2, h3, h4, h5, h6, h7, h8, h9, h10, h11, h12, h13, h14, h15 {
+	margin: 0;
+	padding: 0;
+}
+h1 {font-size: 16px;}
+h2 {font-size: 18px;}
+h3 {font-size: 20px;}
+h4 {font-size: 22px;}
+h5 {font-size: 24px;}
+h6 {font-size: 26px;}
+h7 {font-size: 28px;}
+h8 {font-size: 30px;}
+h9 {font-size: 32px;}
+h10 {font-size: 34px;}
+h11 {font-size: 55px;}
+h12 {font-size: 60px;}
+h13 {font-size: 65px;}
+h14 {font-size: 70px;}
+h15 {font-size: 75px;}
